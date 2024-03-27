@@ -25,15 +25,12 @@
     font-weight: 700;
     margin-bottom: 26px;
 }
-.userTag {
+.userTag,
+.userLocation {
     color: rgb(139, 139, 139);
     font-size: 38px;
     margin-bottom: 20px;
 }
-.userLocation {
-    composes: userTag;
-}
-
 .statsList {
     display: flex;
     justify-content: space-between;
